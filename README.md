@@ -27,7 +27,7 @@ Healthy Harvest is an integrated decision support system designed to optimize ag
 ├── static/                    # UI Assets (CSS, JS)
 ├── Healthy Harvest_Black Book.pdf # Full technical documentation
 └── final_db.sql               # MySQL database schema
-
+```
 ## **Setup & Installation**
 
 1. **Clone the repository:**
