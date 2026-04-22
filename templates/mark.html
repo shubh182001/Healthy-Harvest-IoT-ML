@@ -1,0 +1,372 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Garden - Home One</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="manifest" href="site.html">
+	<link rel="apple-touch-icon" href="icon.html">
+	<!-- Place favicon.ico in the root directory -->
+
+	<!-- bootstrap v4.0.0 -->
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+	<!-- fontawesome-icons css -->
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/font-awesome.min.css') }}">
+	<!-- themify-icons css -->
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/themify-icons.css') }}">
+	<!-- elegant css -->
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/elegant.css') }}">
+	<!-- meanmenu css -->
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/meanmenu.min.css') }}">
+	<!-- animate css -->
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/animate.css') }}">
+	<!-- venobox css -->
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/venobox.css') }}">
+	<!-- jquery-ui.min css -->
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/jquery-ui.min.css') }}">
+	<!-- slick css -->
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/slick.css') }}">
+	<!-- slick-theme css -->
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/slick-theme.css') }}">
+	<!-- helper css -->
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/helper.css') }}">
+	<!-- style css -->
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }} ">
+	<!-- responsive css -->
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/responsive.css') }}">
+</head>
+
+<body>
+	<!--header-area start-->
+	<header class="header-area">
+		<!--header-top-->
+		<div class="header-top d-none d-lg-block">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-sm-6">
+						<div class="contact-info">
+							<ul>
+								<li>Welcome to “The Farmers Friend Website” <span>|</span></li>
+								<li><i class="fa fa-clock-o"></i>Monday - Saturday: 7.AM - 5.PM</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="contact-info pull-right">
+							<ul>
+								<li><i class="fa fa-phone"></i>(88) 0111 223 445 <span>|</span></li>
+								<li><i class="fa fa-home"></i>20 Green Farm, Mumbai Maharashtra.</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--header-bottom-->
+		<div id="sticker" class="header-bottom">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-2 col-sm-2">
+						<div class="logo">
+							<a href="index.html"><img src="../static/images/logo.png" alt="logo"></a>
+						</div>
+					</div>
+					<div class="col-lg-10 col-sm-10">
+						<div class="mainmenu text-right">
+							<nav>
+								<ul>
+									<li><a href="/index">Home</a></li>
+									<li><a href="/about">About Us</a></li>
+									<li><a href="#">Services</a>
+										<ul class="submenu">
+											<li><a href="/prediction">Prediction</a></li>
+											<li><a href="/weth">Weather Forcasting</a></li>
+											<li><a href="/mark">Market analysis</a></li>
+											<li><a href="/pol">Government Policy</a></li>
+										</ul>
+									</li>
+									<li><a href="/contact">Contact Us</a></li>
+									<li><a href="/logout">Logout</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!--header-area end-->
+
+	
+	<!--banner-area start-->
+	<div class="banner-area bg-1 overlay">
+		<div class="container">
+			<div class="row align-items-center height-800 pb-111">
+				<div class="col-sm-12">
+					<div class="banner-text text-center">
+						<h2>The Farmer Friend Introducing</h2>
+						<p class="mt-30">Market analysis</p>
+						<a class="venobox video-play" data-gall="gall-video" data-autoplay="true" data-vbtype="video" href="https://www.youtube.com/watch?v=IOYDTfG2zJQ">
+                        <i class="fa fa-play"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--banner-area end-->
+	
+	<!--about-area start-->
+	<div class="about-area mt-85 sm-mt-30">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 offset-md-2 col-sm-12">
+					<div class="section-title">
+						<h2>Little About Us</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row mt-55 sm-mt-37 xs-mt-57">
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<div class="sin-service style-2">
+						<i class="ti-clipboard"></i>
+						<a href="/seed"><h3>Seed Dealer Information</h3></a>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<div class="sin-service style-2">
+						<i class="ti-truck"></i>
+						<a href="/pest"><h3>Pesticide Dealers</h3></a>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<div class="sin-service style-2">
+						<i class="ti-cup"></i>
+						<a href="/fer"><h3>Fertilizer dealers</h3></a>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<div class="sin-service style-2">
+						<i class="ti-comments"></i>
+						<a href="/cold"><h3>Cold storage/warehouse</h3></a>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<div class="sin-service style-2">
+						<i class="ti-calendar"></i>
+						<a href="/mark"><h3>market price analysis</h3></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--about-area end-->
+	
+	<!--contact-form area-->
+	<div class="contact-area bg-1 mt-83 sm-mt-40">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 offset-md-2 col-sm-12">
+					<div class="section-title">
+						<h2>Start Market analysis</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row mt-32 sm-mt-2">
+				<div class="col-lg-8 offset-lg-2 col-md-12 col-sm-12">
+					<div class="contact-form style-1 text-center">
+						<form action="/mark" method="POST">
+							<div class="row">
+								<div class="col-sm-6">
+									<input type="text" name="st" placeholder="Enter state name" required/>
+								</div>
+								<div class="col-sm-6">
+									<input type="text" name="dis" placeholder="Enter district" required/>
+								</div>
+								<div class="col-sm-6">
+									<input type="text" name="mar" placeholder="Enter market" required/>
+								</div>
+								<div class="col-sm-6">
+									<div id="date-picker-example" class="md-form md-outline input-with-post-icon datepicker" inline="true">
+										<input type="date" name="dat" id="example" class="form-control">
+									  </div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<button type="submit" class="btn-common cta-btn width-190">Submit Query</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--contact-form end-->
+	
+	<!--cta-area start-->
+	<div class="cta-area mt-100 sm-mt-80">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-md-8">
+					<div class="cta-text">
+						<h3>Live help number <span>(88) 0111 223 445 - (99) 222 555 1111</span></h3>
+						<p>Call Us Now When You Have Any Gardening Question.</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<a href="#" class="btn-common cta-btn width-190 pull-right">Contact Now</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--cta-area end-->
+	
+	<!--testimonial-area start-->
+	<div class="testimonial-area bg-1 mt-62 sm-mt-30">
+		<div class="container">
+			<table class="table table-bordered">
+				<thead>
+				  <tr>
+					<th scope="col">Comodity</th>
+					<th scope="col">Variety</th>
+					<th scope="col">Maximum Price</th>
+					<th scope="col">Average Price</th>
+					<th scope="col">Minimum Price</th>
+					<th scope="col">Last Updated On</th>
+				  </tr>
+				</thead>
+				{% for a,b,c,d,e,f in table %}
+				<tbody>
+				  <tr>
+					<td>{{a}}</td>
+					<td>{{b}}</td>
+					<td>{{c}}</td>
+					<td>{{d}}</td>
+					<td>{{e}}</td>
+					<td>{{f}}</td>
+				  </tr>
+				</tbody>
+				{% endfor %}
+			  </table>
+		</div>
+	</div>
+	<!--testimonial-area end-->
+	
+	<!--footer-area start-->
+	<footer class="footer-area">
+		<!--footer-top-->
+		<div class="footer-widgets">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-sm-6">
+						<div class="footer-widget">
+							<h4>About Company</h4>
+							<div class="about-widget">
+								<p>It is a long established fact that a reader will be distracted by readable content of a page when looking at layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6">
+						<div class="footer-widget">
+							<h4>Twitter Feed</h4>
+							<div class="twitter-feed">
+								<ul class="list-none">
+									<li>
+										<ul class="list-none inline-list">
+											<li><a href="#"><i class="social_twitter"></i>Thegarden</a> <span>|</span></li>
+											<li>8 months ago</li>
+										</ul>   
+										<p>It's an exclusive offer. Varmo Magento Multipurpose Responsive Theme</p>
+									</li>
+									<li>
+										<ul class="list-none inline-list">
+											<li><a href="#"><i class="social_twitter"></i>Thegarden</a> <span>|</span></li>
+											<li>8 months ago</li>
+										</ul>   
+										<p>It's an exclusive offer. Varmo Magento Multipurpose Responsive Theme</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6">
+						<div class="footer-widget">
+							<h4>Instagram</h4>
+							<div class="instagram-imgages">
+								<a href="#"><img src="../static/images/instagram/1.jpg" alt="instagram" /></a>
+								<a href="#"><img src="../static/images/instagram/2.jpg" alt="instagram" /></a>
+								<a href="#"><img src="../static/images/instagram/3.jpg" alt="instagram" /></a>
+								<a href="#"><img src="../static/images/instagram/4.jpg" alt="instagram" /></a>
+								<a href="#"><img src="../static/images/instagram/5.jpg" alt="instagram" /></a>
+								<a href="#"><img src="../static/images/instagram/6.jpg" alt="instagram" /></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6">
+						<div class="footer-widget">
+							<h4>Working Hours</h4>
+							<div class="work-hours">
+								<ul class="list-none">
+									<li>Monday <span>07:00-17:00</span></li>
+									<li>Tuesday <span>07:00-17:00</span></li>
+									<li>Wednesday <span>07:00-17:00</span></li>
+									<li>Thursday <span>07:00-17:00</span></li>
+									<li>Friday <span>07:00-17:00</span></li>
+									<li>Saturday <span>07:00-17:00</span></li>
+									<li>Sunday <span>CLOSE</span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--footer copyright-->
+		<div class="footer-copyright">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<p><a href="templatespint.net">Templates Point</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!--footer-area end-->
+  
+	<!-- modernizr js -->
+	<script src="{{ url_for('static', filename='js/vendor/modernizr-3.6.0.min.js') }}"></script>
+	<!-- jquery-1.12.0 version -->
+	<script src="{{ url_for('static', filename='js/vendor/jquery-1.12.0.min.js') }}"></script>
+	<!-- bootstra.min js -->
+	<script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+	<!-- meanmenu js -->
+	<script src="{{ url_for('static', filename='js/jquery.meanmenu.min.js') }}"></script>
+	<!-- easing js -->
+	<script src="{{ url_for('static', filename='js/jquery.easing.min.js') }}"></script>
+	<!---venobox-js-->
+	<script src="{{ url_for('static', filename='js/venobox.min.js') }}"></script>
+	<!---slick-js-->
+	<script src="{{ url_for('static', filename='js/slick.min.js') }}"></script>
+	<!---waypoints-js-->
+	<script src="{{ url_for('static', filename='js/waypoints.js') }}"></script>
+	<!---counterup-js-->
+	<script src="{{ url_for('static', filename='js/jquery.counterup.min.js') }}"></script>
+	<!---isotop-js-->
+	<script src="{{ url_for('static', filename='js/isotope.pkgd.min.js') }}"></script>
+	<!-- jquery-ui js -->
+	<script src="{{ url_for('static', filename='js/jquery-ui.min.js') }}"></script>
+	<!-- jquery.countdown js -->
+	<script src="{{ url_for('static', filename='js/jquery.countdown.min.js') }}"></script>
+	<!-- plugins js -->
+	<script src="{{ url_for('static', filename='js/plugins.js') }}"></script>
+	<!-- main js -->
+	<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+  
+</body>
+
+</html>
